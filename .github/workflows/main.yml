@@ -33,8 +33,7 @@ jobs:
         run: npm run build
 
       - name: Publish to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@v4
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          folder: build/site
-          # Don't delete PR versions
-          clean-exclude: pr-preview/
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/site
