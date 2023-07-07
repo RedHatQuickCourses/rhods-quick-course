@@ -6,11 +6,11 @@ To contribute, you can use locally installed tooling on your workstation, or you
 
 ## The "Easy Button" aka OpenShift DevSpaces
 
-1. To open and edit the asciidoc files in OpenShift DevSpaces, click on the **Developer Workspace** badge below and log in using your provided OpenShift credentials:
+1. To open and edit the asciidoc files in OpenShift DevSpaces, right click on the **Developer Workspace** badge below and open it in a new browser tab:
 
-[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-bqmpk.bqmpk.sandbox1618.opentlc.com/#https://github.com/RedHatTraining/rhods-quick-course)
+[![Contribute](https://www.eclipse.org/che/contribute.svg)](https://devspaces.apps.cluster-bqmpk.bqmpk.sandbox1618.opentlc.com/#https://github.com/RedHatQuickCourses/rhods-quick-course)
 
-2. If you launch the DevSpaces workspace for the first time, it will take a few minutes to download the container image, clone the Git repository, and set up your project. All the required tooling and IDE plugins are automatically installed and set up for you.
+3. Log in using your provided OpenShift credentials. If you launch the DevSpaces workspace for the first time, it will take a few minutes to download the container image, clone the Git repository, and set up your project. All the required tooling and IDE plugins are automatically installed and set up for you.
 
 3. Follow the steps in the [*Previewing HTML content and publishing*](#Previewing-HTML-content-and-publishing) section.
 
@@ -37,9 +37,9 @@ $ npm install
 
 3. The Git repository contains the default chapter and section stubs with comments from the course product owner and architect to help guide you. Inspect the *$CONTENT_ROOT/antora.yml* file, which defines the top level modules (chapters) in this course. 
 
-4. The starting point (index page) for the course is rendered from asciidoc content in the *$CONTENT_ROOT/modules/ROOT/pages/index.adoc* file.
+4. The starting point (index page) for the course is rendered from asciidoc content in the *modules/ROOT/pages/index.adoc* file.
 
-5. Each top level module has a separate asciidoc file (*nav.adoc*) located in *$CONTENT_ROOT/modules/module_name/* folder. The *nav.adoc* lists the sections that make up the chapter/module.
+5. Each top level module has a separate asciidoc file (*nav.adoc*) located in *modules/module_name/* folder. The *nav.adoc* lists the sections that make up the chapter/module.
 
 6. To write narrative and hands-on lab content, edit the asciidoc files under *$CONTENT_ROOT/modules/module_name/pages*. You can use the *asciidoctor* plug-in preview plugin (Press **"Ctrl + Shift + V"** on Linux; Press **"Cmd + Shift + V"** on MacOS) to preview the rendered HTML content.
 
@@ -64,7 +64,7 @@ $ npm install
 
 9. Open a Pull Request so that the changes in your branch can be merged into the **main** branch of the course Git repository. A GitHub action runs on every merge & push to the **main** branch and publishes the HTML content to a GitHub Page.
 
-9. After a few minutes, the GitHub action finishes and you can view the latest rendered asciidoc content at https://rsriniva.github.io/rhods-quick-course.
+9. After a few minutes, the GitHub action finishes and you can view the latest rendered asciidoc content at https://redhatquickcourses.github.io/rhods-quick-course.
 
 ## Problems and Feedback
-If you run into any issues, report bugs/suggestions/improvements about this course here - https://github.com/RedHatTraining/rhods-quick-course/issues
+If you run into any issues, report bugs/suggestions/improvements about this course here - https://github.com/RedHatQuickCourses/rhods-quick-course/issues
