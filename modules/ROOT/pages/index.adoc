@@ -1,4 +1,4 @@
-= Developing Intelligent Applications using Red Hat OpenShift Data Science (RHODS)
+= Developing Intelligent Applications using Red{nbsp}Hat OpenShift Data Science (RHODS)
 :navtitle: Welcome
 
 == Introduction
